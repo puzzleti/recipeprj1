@@ -1,0 +1,28 @@
+
+generate component:
+-------------------
+terminal>$ ng generate component component_name --flat --inline-template  --inline-style --spec false
+oder
+terminal>$ ng g c component_name --flat --inline-template --inline-style --skipTests
+
+-------------------------------------------------
+
+npm install --save bootstrap@3
+
+dann bootstrap-pfad in die angular.json datei unter styles eintragen
+
+-------------------------------------------------
+
+git lokal:
+E:\workspaces\PortableGit\bin\git.exe
+
+################################
+
+echo "# recipeprj" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/puzzleti/recipeprj1.git
+git push -u origin master
+
+################################
